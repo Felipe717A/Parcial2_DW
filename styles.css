@@ -1,0 +1,139 @@
+header {
+    background-color: #e71616;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.bandera {
+    display: inline-block;
+    width: 700px;
+    height: 200px;
+    
+    
+}
+.imagen{
+    width: 40%;
+    height: 100%;
+    float:right;
+}
+
+.li{
+
+    border: 20px;
+    border-color: black;
+}
+
+
+.G {
+    background-color: green;
+    width: 20%;
+    height: 100%;
+    float:right;
+    color: black;
+    border-color: black;
+    border: 1px solid #000; 
+    padding: 5px; 
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+    
+}
+
+
+.B {
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    float:right;
+    color: black;
+    border-color: black;
+    border: 1px solid #000; 
+    padding: 5px; 
+}
+
+
+.R {
+    background-color: red;
+    width: 20%;
+    height: 100%;
+    float:right;
+    color: black;
+    border-color: black;
+    border: 20px;
+    border: 1px solid #000; 
+    padding: 5px; 
+}
+
+.enlances {
+    list-style: none;
+    display: flex;
+}
+
+.enlances li {
+    margin-right: 20px;
+}
+
+.buscar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.boton  {
+    background-color: #1fbe07;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    -webkit-transition:  background 1s;
+}
+
+.buscar {
+    position: relative;
+    width: 271px;
+  }
+  
+  .input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 150px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /*sacado de https://cybmeta.com/animaciones-basicas-con-css-transition*/
+li{
+    transition: color 0.5s;
+    -webkit-transition:  background 1s;
+}
+
+li:hover {
+    
+    color: white;
+    background: #fcfcfc;
+}
+
+.B:hover{
+    background-color: rgb(17, 0, 255);
+    color: white;
+}
+
+.boton:hover{
+
+    background: #161515;
+}
+
